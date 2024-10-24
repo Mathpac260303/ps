@@ -1,0 +1,14 @@
+Explicação código:
+
+l1-l33: Pega o input do usuário sobre a ordem da matriz além de seus valores, tem um loop while caso ele escolha um número de ordem não aceito, pedindo para ser
+digitado outro.
+
+l34-l62: Pega a soma (com um for) da primeira linha da matriz como referência a ser comparado com as outras linhas/colunas/diagonais, o próximo for passa por todos
+os valores da matriz e soma ele à soma que ele pertence a partir das condições de sua posição na matriz. somal[x] -> soma da linha x, somac[x] -> soma da coluna x,
+somadp -> soma diagonal principal, somads -> soma diagonal secundaria, somareferência -> soma de referência (primeira linha).
+
+l63-l75: Comparando soma de linhas, colunas e diagonais com a soma de referência, caso seja diferente muda a varíavel flag para 1.
+
+l76-l97: Se flag for 1, printa que não é um quadrado magico, caso contrário, printa que é, printa a matriz, e a soma de referência.
+
+
